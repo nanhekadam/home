@@ -1,0 +1,17 @@
+.app-icon {
+	width: 25%;
+	border-radius: 20%;
+
+}
+
+.col-lg-4 {
+	padding: 50px;
+}
+
+.app-icon-col {
+	text-align: right;
+}
+
+.row {
+	margin-top: 50px;
+}

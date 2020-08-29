@@ -9,37 +9,61 @@
     <link rel="icon" href="images/icons/favicon-home.png">
   </head>
   <body>
-    <div id="top" class="top-container">
+    <!-- <div id="top" class="top-container">
       <img class="home-logo" src="images/home-logo.png" alt="Image of Nanhe Kadam Logo"><br>
       <a class="header-link" href="#top">Home</a>
       <a class="header-link" href="#middle">Android Apps</a>
       <a class="header-link" href="#about-us">About Us</a>
       <a class="header-link" href="#footer">Contact us</a>
-    </div>
+    </div> -->
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">nanhe kadam</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="menuItems">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item-active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#middle">Android Apps</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <div id="middle" class="middle-container">
       <div class="app-addictometer">
-        <img class="addictometer-icon" src="images/icons/apple-icon.png" alt="Myaddictometer App Icon">
+        <img class="addictometer-icon" src="images/icons/myaddictometer-app-icon.png" alt="Myaddictometer App Icon">
         <h2>My Addictometer</h2>
         <p>
           Application to monitor your daily phone usage and provide in-depth analysis through
           grpahs and other visuals to understand your device usage pattern.
         </p>
-        <form class="" action="myaddictometer.html">
-          <input class="btn btn-info" type="submit" name="" value="Explore More">
+        <form class="" action="myaddictometer/myaddictometer.html">
+          <input class="btn btn-outline-info" type="submit" name="" value="Explore More">
         </form>
         <!-- <button type="button" name="button" class="btn btn-lg btn-success">Explore More</button> -->
       </div>
 
       <div class="app-attendanceokay">
-        <img class="attendanceokay-icon" src="images/attendance-okay-app-logo.png" alt="Attendance Okay App Icon">
+        <img class="attendanceokay-icon" src="images/icons/attendance-okay-app-icon.png" alt="Attendance Okay App Icon">
         <h2>Attendance Okay</h2>
         <p>
           Application to ease out your attendance marking experience on ESS portal. This is
           closed user group specific app targetted for employees of the concerned company.
         </p>
         <form class="" action="attendance-okay/attendance-okay.html">
-          <input class="btn btn-info" type="submit" name="" value="Explore More">
+          <input class="btn btn-outline-info" type="submit" name="" value="Explore More">
         </form>
       </div>
     </div>
@@ -48,6 +72,10 @@
       <p>©️ 2020 Copyright by Nanhekadam - All rights reserved</p>
 
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   </body>
 </html>
