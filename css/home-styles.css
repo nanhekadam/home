@@ -7,7 +7,7 @@ body {
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 250%;
+  font-size: 2.5rem;
   padding-bottom: 10px;
   margin: 0;
 }
@@ -26,8 +26,7 @@ a:hover {
 }
 
 .home-logo {
-	width: 50%
-
+  width: 50%;
 }
 
 .header-link {
@@ -71,14 +70,15 @@ a:hover {
 
 .addictometer-icon {
   float: left;
-  margin-right: 30px;
   width: 15%;
+  margin-right: 30px;
 }
 
 .attendanceokay-icon {
   float: left;
   width: 15%;
   margin-right: 30px;
+  border-radius: 16px;
 
 }
 
@@ -89,6 +89,10 @@ a:hover {
   padding: 50px 0 40px;
   text-align: center;
 
+}
+
+.btn {
+  margin-top: 20px;
 }
 
 /* h1 {
