@@ -1,7 +1,12 @@
 .app-icon {
-	width: 25%;
+	width: 40%;
 	border-radius: 20%;
 
+}
+
+.container {
+	width: 50%;
+	
 }
 
 .col-lg-4 {
@@ -9,7 +14,7 @@
 }
 
 .app-icon-col {
-	text-align: right;
+	/*text-align: right;*/
 }
 
 .row {
