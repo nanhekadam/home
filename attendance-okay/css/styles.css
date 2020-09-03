@@ -2,6 +2,7 @@ h1 {
 	font-family: "Montserrat";
 	font-weight: 500;
 	font-size: 5rem;
+	word-wrap: break-word;
 }
 
 h3 {
@@ -42,8 +43,8 @@ p {
 }
 
 
-.col-lg-4 {
-	padding: 50px;
+.head-row {
+	padding: 3% 0;
 }
 
 .app-icon-col {
