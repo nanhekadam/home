@@ -58,7 +58,7 @@ p {
 
 /*Navigation*/
 .navbar {
-	padding: 0 0 4.5rem;
+	/*padding: 0 0 4.5rem;*/
 }
 
 .navbar-brand {
@@ -105,5 +105,17 @@ p {
 	padding: 1rem;
 	margin-bottom: 0;
 	background-color: #343a40;
+}
+
+/*Media Query breakpoints*/
+@media (max-width: 510px) {
+	#title, #download {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
 }
 
