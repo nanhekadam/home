@@ -20,7 +20,7 @@ p {
 }
 
 /*Container*/
-.container {
+.container-fluid {
 	padding: 3% 15%;
 	width: 100%;
 }
@@ -105,6 +105,19 @@ p {
 	padding: 1rem;
 	margin-bottom: 0;
 	background-color: #343a40;
+}
+
+/*Custom Button*/
+.btn-custom {
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	line-height: 26px;
+	min-height: 64px;
+	padding: 10px 25px 10px 92px;
+	text-transform: uppercase;
+	white-space: nowrap;
+
 }
 
 /*Media Query breakpoints*/
