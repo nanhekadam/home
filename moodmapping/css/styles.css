@@ -1,0 +1,186 @@
+h1 {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 5rem;
+	word-wrap: break-word;
+	color: #ffffff;
+}
+
+h3 {
+	font-family: "Montserrat";
+	font-weight: 500;
+	font-size: 1.25rem;
+}
+
+p {
+	padding: 3% auto
+}
+
+.row {
+	margin-bottom: 50px;
+}
+
+/*Container*/
+.container-fluid {
+	padding: 3% 15%;
+	width: 100%;
+}
+
+/*Title Section*/
+#title {
+	background-color: #42435F;
+	/* background-color: #f1f1e8; */
+	/*background-color: #f8f9fa;*/
+}
+
+#title p{
+	color: #ffffff;
+}
+
+.app-icon {
+	width: 40%;
+	border-radius: 20%;
+/*	transition-duration: 0.5s;
+	transition-property: transform;*/
+}
+
+.app-icon:hover {
+	/* transform: rotate(360deg); */
+}
+
+.head-row {
+	padding: 3% 0;
+}
+
+.app-icon-col {
+	/*text-align: right;*/
+}
+
+.row {
+	margin-top: 50px;
+}
+
+
+/*Navigation*/
+.navbar {
+	/*padding: 0 0 4.5rem;*/
+}
+
+.navbar-brand {
+	font-size: 2rem;
+	font-family: "Montserrat";
+}
+
+
+
+/*Features*/
+#features {
+	background-color: #f8f9fa;
+}
+
+.feature-box {
+	text-align: center;
+	padding: 3% 5%;
+}
+
+.f-icon {
+	color: #61638c;
+	/* color: #17a2b8; */
+	margin-bottom: 20px;
+}
+
+.f-icon:hover {
+	color: #42435F;
+	/* color: teal; */
+}
+
+/* Screenshots Section */
+
+#screenshots {
+  background-color: #e9e9f0;
+	padding: 3% 0;
+}
+
+.screenshots {
+    width: 50%;
+    margin: 0px auto;
+    /* margin-top: 100px */
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
+.screenshot-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.screenshot-image {
+  width: 20%;
+  /* border-radius: 100%; */
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*Download Section*/
+#download {
+	/* background-color: #f7f2e7; */
+	/* color: #fff; */
+}
+
+.download-desc {
+	padding: 3% 0;
+}
+
+/*Footer*/
+.card-footer {
+	font-size: 0.75rem;
+	padding: 1rem;
+	margin-bottom: 0;
+	background-color: #42435F;
+}
+
+#footer p {
+	color: #fff;
+}
+
+/*Custom Button*/
+.btn-custom {
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	line-height: 26px;
+	min-height: 64px;
+	padding: 10px 25px 10px 92px;
+	text-transform: uppercase;
+	white-space: nowrap;
+
+}
+
+/*Media Query breakpoints*/
+@media (max-width: 479px) {
+	#title, #download {
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+}

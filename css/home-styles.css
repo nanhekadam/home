@@ -57,37 +57,15 @@ a:hover {
 	background-color: #EAF6F6;
 }
 
-.app-addictometer {
-  /*width: 50%;*/
+.app {
   margin: 0 auto;
-  padding: 100px 0 50px;
+  padding: 50px 0 50px;
 }
 
-.app-attendanceokay {
-  /*width: 50%;*/
-  margin: 0 auto;
-  padding: 50px 0 100px;
-}
-
-.addictometer-icon {
-  /*float: left;*/
-  width: 50%;
-  margin: 30px 0;
-}
-
-.attendanceokay-icon {
-  /*float: left;*/
+.icon {
   width: 50%;
   margin: 30px 0;
   border-radius: 20%;
-
-}
-
-.seismicandwind-icon {
-  width: 50%;
-  margin: 30px 0;
-  border-radius: 20%;
-
 }
 
 .container {
@@ -109,7 +87,7 @@ a:hover {
 }
 
 .navbar-brand {
-  font-size: 1.5rem;  
+  font-size: 1.5rem;
 }
 
 /* h1 {
