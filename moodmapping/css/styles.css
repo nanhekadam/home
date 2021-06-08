@@ -174,7 +174,51 @@ p {
 	padding: 10px 25px 10px 92px;
 	text-transform: uppercase;
 	white-space: nowrap;
+}
 
+.btn-icon {
+		/* position:absolute;
+		top:0px;
+		bottom:0px;
+		left:0px;
+		width:70px;
+		font-size:30px;
+		line-height:64px;
+		text-align:center;
+		border-right:1px solid #1eabdc;
+		-webkit-transition:border .2s ease;
+		-moz-transition:border .2s ease;
+		-ms-transition:border .2s ease;
+		-o-transition:border .2s ease;
+		transition:border .2s ease; */
+}
+
+.fa {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	width:70px;
+	font-size:30px;
+	font-family: normal 14px/1 FontAwesome;
+	line-height:64px;
+	text-align:center;
+	border-right:1px solid #1eabdc;
+	-webkit-transition:border .2s ease;
+	-moz-transition:border .2s ease;
+	-ms-transition:border .2s ease;
+	-o-transition:border .2s ease;
+	transition:border .2s ease;
+}
+
+em {
+	/* display:block;
+	font-family:Roboto, Arial, sans-serif;
+	font-size:14px;
+	line-height:18px;
+	font-style:normal;
+	font-weight:300;
+	text-transform:none; */
 }
 
 /*Media Query breakpoints*/
